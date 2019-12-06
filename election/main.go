@@ -28,7 +28,8 @@ func main() {
 	fmt.Println("Estimated probability of a tie is", probabilityTie)
 }
 
-//SimulateMultipleElections takes polling data as a map of state names to floats (for candidate 1), along with a map of state names to electoral votes, a number of trials, and a margin of error in the polls.
+//SimulateMultipleElections takes polling data as a map of state names to floats (for candidate 1), along with a 
+//map of state names to electoral votes, a number of trials, and a margin of error in the polls.
 //It returns three values: the estimated probabilities of candidate 1 winning, candidate 2 winning, and a tie.
 func SimulateMultipleElections(polls map[string]float64, electoralVotes map[string]uint, numTrials int, marginOfError float64) (float64, float64, float64) {
 	// keep track of number of simulated elections won by each candidate (and ties)
