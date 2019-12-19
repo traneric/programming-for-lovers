@@ -1,5 +1,4 @@
 # Programming for Lovers
-
 ## Course Overview
 Programming for Lovers is a free, open online course project that launched in fall 2019.  For the first run of the course, I have given $2,500 to charitable causes in education and outreach that are organized by Carnegie Mellon University’s School of Computer Science, where I serve as a teaching-track faculty member in the Computational Biology Department.
 
